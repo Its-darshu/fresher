@@ -1,0 +1,934 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Main Container */
+.app-container {
+  background-color: white;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Background Layers */
+.background-layer-1 {
+  position: absolute;
+  height: 1075px;
+  left: 0;
+  top: 256px;
+  width: 1518.006px;
+}
+
+.background-layer-2 {
+  position: absolute;
+  height: 700px;
+  left: -18px;
+  top: 256px;
+  width: 2175px;
+}
+
+.background-image-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: -0.09%;
+}
+
+.background-image-wrapper-2 {
+  position: absolute;
+  bottom: 0;
+  left: -0.05%;
+  right: 0;
+  top: 0;
+}
+
+.background-image {
+  display: block;
+  max-width: none;
+  width: 100%;
+  height: 100%;
+}
+
+/* Header Sections */
+.header-left {
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  gap: 10px;
+  height: 40px;
+  align-items: center;
+  left: 0;
+  padding: 10px;
+  right: 168px;
+  top: 0;
+}
+
+.header-title {
+  font-family: 'Product Sans', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  line-height: normal;
+  font-size: 16px;
+  color: black;
+  width: 252px;
+  white-space: pre-wrap;
+}
+
+.header-right {
+  position: absolute;
+  background-color: #010f1c;
+  display: flex;
+  gap: 10px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  right: 0;
+  top: 0;
+  width: 168px;
+}
+
+.header-date {
+  font-family: 'Product Sans', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  line-height: normal;
+  font-size: 12px;
+  color: white;
+}
+
+/* Main Title */
+.main-title {
+  position: absolute;
+  font-family: 'Whyte Inktrap', sans-serif;
+  line-height: 1;
+  left: 25px;
+  font-size: 48px;
+  color: black;
+  top: 100px;
+  white-space: nowrap;
+}
+
+.main-title p {
+  margin-bottom: 0;
+}
+
+/* Welcome Badge */
+.welcome-badge {
+  position: absolute;
+  background-color: #010f1c;
+  border: 1px solid black;
+  display: flex;
+  gap: 5px;
+  height: 27px;
+  align-items: center;
+  left: 25px;
+  padding: 10px 0 10px 10px;
+  top: 196px;
+  width: 202px;
+}
+
+.welcome-text {
+  font-family: 'Product Sans', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 1;
+  font-size: 16px;
+  color: white;
+}
+
+.welcome-icon {
+  width: 27.071px;
+  height: 27.071px;
+}
+
+.icon-image {
+  width: 100%;
+  height: 100%;
+}
+
+/* Decorative Elements */
+.decoration-right-1 {
+  position: absolute;
+  height: 174.999px;
+  right: -42px;
+  top: 51px;
+  width: 175px;
+}
+
+.decoration-image-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: -0.57%;
+  right: 0;
+  top: 0;
+}
+
+.decoration-image {
+  display: block;
+  max-width: none;
+  width: 100%;
+  height: 100%;
+}
+
+.decoration-rotated {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  top: 50px;
+}
+
+.decoration-rotated-inner {
+  transform: rotate(270deg);
+}
+
+.decoration-group-1 {
+  height: 134px;
+  position: relative;
+  width: 175px;
+}
+
+/* Block Containers */
+.block-container-1 {
+  position: absolute;
+  height: 44.176px;
+  left: calc(50% + 134px);
+  top: 216px;
+  transform: translateX(-50%);
+  width: 104px;
+}
+
+.block-container-2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 334.02px;
+  top: 322px;
+}
+
+.block-container-2-inner {
+  transform: rotate(158deg) scaleY(-1);
+}
+
+.block-image-wrapper {
+  position: absolute;
+  inset: -1.15% -0.92% -1.16% -0.5%;
+}
+
+.block-image {
+  display: block;
+  max-width: none;
+  width: 100%;
+  height: 100%;
+}
+
+/* Letter Groups - C (first) */
+.letter-group-c {
+  position: absolute;
+  right: 152px;
+  top: 253px;
+}
+
+.letter-block-c {
+  position: absolute;
+  height: 74px;
+  right: 152px;
+  top: 253px;
+  width: 75px;
+}
+
+.letter-block-image-wrapper {
+  position: absolute;
+  inset: -0.68% -0.67%;
+}
+
+.letter-text-c {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 214.11px;
+  top: 255.98px;
+  transform: translateX(100%);
+}
+
+.letter-text-rotated {
+  transform: rotate(24deg);
+}
+
+.letter-text {
+  font-family: 'Product Sans', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  line-height: normal;
+  font-size: 36px;
+  color: black;
+}
+
+/* Letter Groups - S */
+.letter-group-s {
+  position: absolute;
+  right: 73px;
+  top: 247px;
+}
+
+.letter-block-s {
+  position: absolute;
+  height: 74px;
+  right: 73px;
+  top: 247px;
+  width: 75px;
+}
+
+.letter-text-s {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 131px;
+  top: 251px;
+  transform: translateX(100%);
+}
+
+/* Block Decorations */
+.block-decoration-1 {
+  position: absolute;
+  height: 81px;
+  right: 231px;
+  top: 249px;
+  width: 104px;
+}
+
+.block-decoration-2 {
+  position: absolute;
+  height: 71px;
+  right: 39px;
+  top: 70px;
+  width: 104px;
+}
+
+.block-decoration-3 {
+  position: absolute;
+  height: 50.761px;
+  right: 0;
+  top: 162px;
+  width: 36px;
+}
+
+.block-decoration-4 {
+  position: absolute;
+  height: 83px;
+  right: 44px;
+  top: 140px;
+  width: 85px;
+}
+
+.block-decoration-5 {
+  height: 44.176px;
+  position: relative;
+  width: 104px;
+}
+
+/* Letter Groups - M */
+.letter-group-m {
+  position: absolute;
+  right: 287px;
+  top: 329px;
+}
+
+.letter-block-m {
+  position: absolute;
+  height: 76px;
+  right: 287px;
+  top: 329px;
+  width: 77px;
+}
+
+.letter-text-m {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 348px;
+  top: 331px;
+  transform: translateX(100%);
+}
+
+/* Letter Groups - A */
+.letter-group-a {
+  position: absolute;
+  right: 218px;
+  top: 315px;
+}
+
+.letter-block-a {
+  position: absolute;
+  height: 76px;
+  right: 218px;
+  top: 315px;
+  width: 77px;
+}
+
+.letter-text-a {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 279px;
+  top: 318px;
+  transform: translateX(100%);
+}
+
+/* Letter Groups - N */
+.letter-group-n {
+  position: absolute;
+  right: 167px;
+  top: 351px;
+}
+
+.letter-block-n {
+  position: absolute;
+  height: 74px;
+  right: 167px;
+  top: 351px;
+  width: 75px;
+}
+
+.letter-text-n {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 226px;
+  top: 354px;
+  transform: translateX(100%);
+}
+
+/* Letter Groups - I */
+.letter-group-i {
+  position: absolute;
+  right: 97px;
+  top: 325px;
+}
+
+.letter-block-i {
+  position: absolute;
+  height: 74px;
+  right: 97px;
+  top: 325px;
+  width: 75px;
+}
+
+.letter-text-i {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 149px;
+  top: 332px;
+  transform: translateX(100%);
+}
+
+/* Letter Groups - C (second) */
+.letter-group-c2 {
+  position: absolute;
+  right: 63px;
+  top: 377px;
+}
+
+.letter-block-c2 {
+  position: absolute;
+  height: 74px;
+  right: 63px;
+  top: 377px;
+  width: 75px;
+}
+
+.letter-text-c2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 121px;
+  top: 381px;
+  transform: translateX(100%);
+}
+
+/* Letter Groups - X */
+.letter-group-x {
+  position: absolute;
+  right: 1px;
+  top: 332px;
+}
+
+.letter-block-x {
+  position: absolute;
+  height: 76px;
+  right: 1px;
+  top: 332px;
+  width: 77px;
+}
+
+.letter-text-x {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 62px;
+  top: 335px;
+  transform: translateX(100%);
+}
+
+/* Bottom Decorations */
+.bottom-decoration-1 {
+  position: absolute;
+  display: flex;
+  height: 82px;
+  align-items: center;
+  justify-content: center;
+  right: 129px;
+  top: 414px;
+  width: 58px;
+}
+
+.bottom-decoration-inner {
+  transform: rotate(180deg) scaleY(-1);
+}
+
+.bottom-block-1 {
+  height: 82px;
+  position: relative;
+  width: 58px;
+}
+
+.bottom-decoration-2 {
+  position: absolute;
+  height: 68.94px;
+  right: 184px;
+  top: 415px;
+  width: 111px;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+  .app-container {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  /* Scale all elements proportionally */
+  .header-left {
+    right: 150px;
+    height: 35px;
+    padding: 8px;
+  }
+  
+  .header-title {
+    font-size: 14px;
+  }
+  
+  .header-right {
+    width: 150px;
+    height: 35px;
+    padding: 8px;
+  }
+  
+  .header-date {
+    font-size: 11px;
+  }
+  
+  .main-title {
+    font-size: 42px;
+    left: 20px;
+    top: 85px;
+  }
+  
+  .welcome-badge {
+    left: 20px;
+    top: 175px;
+    width: 190px;
+    height: 25px;
+  }
+  
+  .welcome-text {
+    font-size: 14px;
+  }
+  
+  .welcome-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Background layers scale */
+  .background-layer-1 {
+    height: 900px;
+    width: 1200px;
+    top: 220px;
+  }
+  
+  .background-layer-2 {
+    height: 600px;
+    width: 1800px;
+    top: 220px;
+  }
+  
+  /* Letter blocks scale proportionally */
+  .letter-text {
+    font-size: 32px;
+  }
+}
+
+/* Phone portrait mode - matches uploaded screenshot */
+@media (max-width: 480px) {
+  .app-container {
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+  /* Header adjustments */
+  .header-left {
+    right: 130px;
+    height: 30px;
+    padding: 6px 8px;
+  }
+  
+  .header-title {
+    font-size: 12px;
+    width: auto;
+  }
+  
+  .header-right {
+    width: 130px;
+    height: 30px;
+    padding: 6px 8px;
+  }
+  
+  .header-date {
+    font-size: 9px;
+  }
+  
+  /* Main title */
+  .main-title {
+    font-size: 32px;
+    left: 10px;
+    top: 50px;
+    line-height: 0.95;
+  }
+  
+  /* Welcome badge */
+  .welcome-badge {
+    left: 10px;
+    top: 130px;
+    width: 150px;
+    height: 22px;
+    padding: 5px 0 5px 8px;
+  }
+  
+  .welcome-text {
+    font-size: 11px;
+  }
+  
+  .welcome-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Background elements - keep visible */
+  .background-layer-1 {
+    height: 600px;
+    width: 800px;
+    top: 160px;
+    left: -100px;
+  }
+  
+  .background-layer-2 {
+    height: 400px;
+    width: 1000px;
+    top: 160px;
+    left: -150px;
+  }
+  
+  /* Decorative elements - scale down */
+  .decoration-right-1 {
+    height: 100px;
+    width: 100px;
+    right: -25px;
+    top: 35px;
+  }
+  
+  .decoration-rotated {
+    right: 0;
+    top: 35px;
+  }
+  
+  .decoration-group-1 {
+    height: 80px;
+    width: 100px;
+  }
+  
+  /* Block containers */
+  .block-container-1 {
+    height: 28px;
+    width: 65px;
+    left: calc(50% + 65px);
+    top: 135px;
+  }
+  
+  .block-decoration-1 {
+    height: 50px;
+    width: 65px;
+    right: 145px;
+    top: 158px;
+  }
+  
+  .block-decoration-2 {
+    height: 45px;
+    width: 65px;
+    right: 25px;
+    top: 48px;
+  }
+  
+  .block-decoration-3 {
+    height: 32px;
+    width: 23px;
+    right: 0;
+    top: 105px;
+  }
+  
+  .block-decoration-4 {
+    height: 52px;
+    width: 53px;
+    right: 28px;
+    top: 90px;
+  }
+  
+  .block-decoration-5 {
+    height: 28px;
+    width: 65px;
+  }
+  
+  /* Letter blocks - C (first) - top right */
+  .letter-group-c {
+    right: 95px;
+    top: 162px;
+  }
+  
+  .letter-block-c {
+    height: 46px;
+    width: 46px;
+    right: 95px;
+    top: 162px;
+  }
+  
+  .letter-text-c {
+    right: 134px;
+    top: 164px;
+  }
+  
+  /* Letter blocks - S - top right */
+  .letter-group-s {
+    right: 45px;
+    top: 158px;
+  }
+  
+  .letter-block-s {
+    height: 46px;
+    width: 46px;
+    right: 45px;
+    top: 158px;
+  }
+  
+  .letter-text-s {
+    right: 82px;
+    top: 160px;
+  }
+  
+  /* Letter blocks - M - middle left */
+  .letter-group-m {
+    right: auto;
+    left: 15px;
+    top: 220px;
+  }
+  
+  .letter-block-m {
+    height: 48px;
+    width: 48px;
+    right: auto;
+    left: 15px;
+    top: 220px;
+  }
+  
+  .letter-text-m {
+    right: auto;
+    left: 20px;
+    top: 222px;
+    transform: translateX(0);
+  }
+  
+  /* Letter blocks - A - middle */
+  .letter-group-a {
+    right: auto;
+    left: 65px;
+    top: 240px;
+  }
+  
+  .letter-block-a {
+    height: 48px;
+    width: 48px;
+    right: auto;
+    left: 65px;
+    top: 240px;
+  }
+  
+  .letter-text-a {
+    right: auto;
+    left: 70px;
+    top: 242px;
+    transform: translateX(0);
+  }
+  
+  /* Letter blocks - N - middle */
+  .letter-group-n {
+    right: auto;
+    left: 115px;
+    top: 255px;
+  }
+  
+  .letter-block-n {
+    height: 46px;
+    width: 46px;
+    right: auto;
+    left: 115px;
+    top: 255px;
+  }
+  
+  .letter-text-n {
+    right: auto;
+    left: 120px;
+    top: 257px;
+    transform: translateX(0);
+  }
+  
+  /* Letter blocks - I - middle right */
+  .letter-group-i {
+    right: 70px;
+    left: auto;
+    top: 230px;
+  }
+  
+  .letter-block-i {
+    height: 46px;
+    width: 46px;
+    right: 70px;
+    left: auto;
+    top: 230px;
+  }
+  
+  .letter-text-i {
+    right: 100px;
+    left: auto;
+    top: 235px;
+  }
+  
+  /* Letter blocks - C (second) - bottom left */
+  .letter-group-c2 {
+    right: auto;
+    left: 85px;
+    top: 295px;
+  }
+  
+  .letter-block-c2 {
+    height: 46px;
+    width: 46px;
+    right: auto;
+    left: 85px;
+    top: 295px;
+  }
+  
+  .letter-text-c2 {
+    right: auto;
+    left: 90px;
+    top: 297px;
+    transform: translateX(0);
+  }
+  
+  /* Letter blocks - X - bottom right */
+  .letter-group-x {
+    right: 15px;
+    left: auto;
+    top: 250px;
+  }
+  
+  .letter-block-x {
+    height: 48px;
+    width: 48px;
+    right: 15px;
+    left: auto;
+    top: 250px;
+  }
+  
+  .letter-text-x {
+    right: 50px;
+    left: auto;
+    top: 252px;
+  }
+  
+  /* Bottom decorations */
+  .bottom-decoration-1 {
+    height: 52px;
+    width: 37px;
+    right: auto;
+    left: 135px;
+    top: 300px;
+  }
+  
+  .bottom-block-1 {
+    height: 52px;
+    width: 37px;
+  }
+  
+  .bottom-decoration-2 {
+    height: 44px;
+    width: 70px;
+    right: auto;
+    left: 105px;
+    top: 215px;
+  }
+  
+  .block-container-2 {
+    right: auto;
+    left: 65px;
+    top: 180px;
+  }
+  
+  /* All letter text */
+  .letter-text {
+    font-size: 22px;
+  }
+  
+  .letter-text-rotated {
+    transform: rotate(20deg);
+  }
+}
