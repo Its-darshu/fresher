@@ -2,25 +2,25 @@ import React from 'react';
 import './App.css';
 
 // Image URLs from Figma
-const imgGroup16 = "https://www.figma.com/api/mcp/asset/d3eb43fd-289b-41af-b3b4-9adf6270bb0f";
-const imgGroup7 = "https://www.figma.com/api/mcp/asset/d8e48d3c-19c6-4a5e-805a-62cd39c083ff";
-const imgFrame4 = "https://www.figma.com/api/mcp/asset/a80fcfca-8c0d-47e8-aee2-e51c6e6854e5";
-const imgFrame2 = "https://www.figma.com/api/mcp/asset/281f49f0-d272-4660-a4fe-a12eba98c00a";
-const imgGroup1 = "https://www.figma.com/api/mcp/asset/ffacb35f-cb31-453f-8f8e-8c355b7b8199";
-const imgVector1 = "https://www.figma.com/api/mcp/asset/a0e48e7a-7227-48fe-8084-36220b8c58e2";
-const imgVector4 = "https://www.figma.com/api/mcp/asset/61edaf5c-fe4f-46c2-a351-d8fc3c36a8e4";
-const imgVector7 = "https://www.figma.com/api/mcp/asset/3b5cb7f8-c250-4b71-a382-ae55cb9b9415";
-const imgGroup6 = "https://www.figma.com/api/mcp/asset/a207ae19-6a47-45b5-9224-510349d5bfca";
-const imgFrame5 = "https://www.figma.com/api/mcp/asset/f409fffa-2a20-4da1-9f58-c072e3a12acd";
-const imgVector16 = "https://www.figma.com/api/mcp/asset/40a90bbd-dfdd-43a1-99cd-495bb5d0cd20";
-const imgFrame6 = "https://www.figma.com/api/mcp/asset/c63c1149-f548-43c9-81c8-0304530467ca";
-const imgVector2 = "https://www.figma.com/api/mcp/asset/a21b6d58-ba6d-4588-bbbc-7dafb4f52f9e";
-const imgVector3 = "https://www.figma.com/api/mcp/asset/94192007-0bf8-4a6d-9d67-e23ecbd77bd4";
-const imgVector5 = "https://www.figma.com/api/mcp/asset/1bbc6952-b4c9-47fb-9f35-117c79f6af97";
-const imgVector6 = "https://www.figma.com/api/mcp/asset/da0eacc9-237f-4b01-ad5f-2ee299b705d6";
-const imgVector8 = "https://www.figma.com/api/mcp/asset/ba49bfc7-b757-4a3f-b91f-32e07736cae4";
-const imgVector17 = "https://www.figma.com/api/mcp/asset/ce4a61a6-988f-4a7b-a009-bd63a9ea090a";
-const imgGroup5 = "https://www.figma.com/api/mcp/asset/08e0b21b-f0ec-4d16-b224-72e9e63f019b";
+const imgGroup16 = "https://www.figma.com/api/mcp/asset/547716d7-3244-44fd-96ea-070ea9833a94";
+const imgGroup7 = "https://www.figma.com/api/mcp/asset/0b123f3a-d5d4-411a-8d9a-bb4c96a232ab";
+const imgFrame4 = "https://www.figma.com/api/mcp/asset/fb6c8a48-a54c-44b6-9bdb-86ec6937b6e6";
+const imgFrame2 = "https://www.figma.com/api/mcp/asset/5e913066-7c30-4f52-8d26-3e55b5d15de4";
+const imgGroup1 = "https://www.figma.com/api/mcp/asset/00720b4c-a37f-4fc5-b547-37659d1fc629";
+const imgVector1 = "https://www.figma.com/api/mcp/asset/f71cc690-0c26-4b1b-a067-097e06f7fbab";
+const imgVector4 = "https://www.figma.com/api/mcp/asset/afe237eb-de2b-4ca0-95f2-9152b3b7f626";
+const imgVector7 = "https://www.figma.com/api/mcp/asset/06657011-1871-4ee4-a496-331ba730d682";
+const imgGroup6 = "https://www.figma.com/api/mcp/asset/fc44655a-499b-40f8-b42b-dd622cacec5f";
+const imgFrame5 = "https://www.figma.com/api/mcp/asset/71c97440-533c-4026-ab5c-aa98c98e758f";
+const imgVector16 = "https://www.figma.com/api/mcp/asset/06e5b6ef-0c70-4205-9752-98ed9477f5c7";
+const imgFrame6 = "https://www.figma.com/api/mcp/asset/2109c598-af6b-4903-aa28-a576e088739f";
+const imgVector2 = "https://www.figma.com/api/mcp/asset/d51cd05a-b2b4-461e-940e-efd0158e3089";
+const imgVector3 = "https://www.figma.com/api/mcp/asset/eda34d1b-f103-4d58-a235-31e28c2414b3";
+const imgVector5 = "https://www.figma.com/api/mcp/asset/7fd0abd4-c8d6-40d0-a494-02ffd20b5a7e";
+const imgVector6 = "https://www.figma.com/api/mcp/asset/bbdb9dbe-7a0c-408f-ada5-60660602ceb4";
+const imgVector8 = "https://www.figma.com/api/mcp/asset/586bbbdb-6fc6-4164-97d8-02df0c7648b8";
+const imgVector17 = "https://www.figma.com/api/mcp/asset/9c839bb3-f554-4077-b1d0-3046857bd9cd";
+const imgGroup5 = "https://www.figma.com/api/mcp/asset/c1041efe-cdc8-41e7-bcdf-8d3e37e8f851";
 
 function App() {
   return (
@@ -53,7 +53,7 @@ function App() {
 
       {/* Welcome Badge */}
       <div className="welcome-badge" data-node-id="3:22">
-        <p className="welcome-text">Welcome to the family</p>
+        <p className="welcome-text">Welcome to our family</p>
         <div className="welcome-icon" data-node-id="3:26">
           <img alt="" className="icon-image" src={imgFrame4} />
         </div>
